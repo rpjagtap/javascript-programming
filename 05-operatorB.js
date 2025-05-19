@@ -45,7 +45,13 @@ function wordLength( str1)
     var str1="Google";
     var result=(str1.length % 2==0) ? "Even" : "Odd";
     console.log(`The Length Of the ${str1} word is ${result}`);
-    return result;  
+    console.log(4 + true);
+    console.log(5 - true);
+    return result; 
+
+    
+    
+    
 }
 wordLength();
 
